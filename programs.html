@@ -313,31 +313,6 @@
             </div>
 
         </div>
-        <script>
-            document.querySelectorAll('.blog').forEach(blog => {
-                const content = blog.querySelector('.content');
-                const readMoreBtn = blog.querySelector('.read-more');
-                const words = content.textContent.split(' ');
-                let expanded = false;
-
-                if (words.length > 10) {
-                    content.textContent = words.slice(0, 50).join(' ');
-                    readMoreBtn.style.display = 'inline-block';
-                }
-
-                readMoreBtn.addEventListener('click', () => {
-                    expanded = !expanded;
-                    if (expanded) {
-                        content.textContent = words.join(' ');
-                        readMoreBtn.textContent = 'Read Less';
-                    } else {
-                        content.textContent = words.slice(0, 50).join(' ');
-                        readMoreBtn.textContent = 'Read More';
-                    }
-                });
-            });
-
-        </script>
     </section>
     <!-- Our Programs End-->
 

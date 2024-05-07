@@ -1196,3 +1196,25 @@
 }
 
 /*** copyright end ***/
+
+
+/*** partner Start ***/
+.partner-item {
+    border: 1px solid var(--bs-primary);
+    padding: 20px 20px;
+}
+
+.partner-carousel .owl-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.partner-carousel.owl-rtl .partner-item {
+    direction: ltr !important;
+}
+/*** partner End ***/
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
