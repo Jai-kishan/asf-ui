@@ -54,9 +54,17 @@
     height: 56px;
 }
 
+.btn-lg-square-contact {
+    width: 36px;
+    height: 36px;
+}
+
+
+
 .btn-square,
 .btn-sm-square,
 .btn-md-square,
+.btn-lg-square-contact,
 .btn-lg-square {
     padding: 0;
     display: flex;
@@ -194,7 +202,7 @@
 
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
