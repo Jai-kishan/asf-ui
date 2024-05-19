@@ -124,6 +124,7 @@
         return false;
     });
 
+    
 
     // partner carousel
     $(".partner-carousel-1").owlCarousel({
