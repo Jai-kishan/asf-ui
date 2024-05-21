@@ -24,6 +24,9 @@
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
     });
+    
+
+
 
 
     // Hero Header carousel
