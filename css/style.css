@@ -1300,6 +1300,9 @@
 
 /*** Events End ***/
 
+
+
+
 /* for read more */
 .mybox {
     display: none;
@@ -1315,7 +1318,7 @@
     width: 100%;
     left: 0;
     top: 0;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 500;
     visibility: hidden;
@@ -1323,18 +1326,15 @@
     transform: all 0.5s ease-in-out;
 }
 
-.popup-box.open{
+.popup-box.open {
     visibility: visible;
     opacity: 1;
 }
 
-
-
-
 .popup-box .popup-content {
     background-color: #ffffff;
     width: 600px;
-    margin-top: 8%;
+    /* margin-top: 8%; */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1342,17 +1342,8 @@
     border-radius: 8px;
 }
 
-.popup-box .popup-header{
-	padding: 5px 10px 0px 6px;
-}
-.popup-box .popup-header h3{
-    padding: 15px 40px 15px 15px;	
-
-    margin: 0;
-    font-size: 20px;
-    color: var(--bs-primary);
-
-
+.popup-box .popup-header {
+    padding: 5px 10px 0px 6px;
 }
 
 .popup-box .popup-close-icon {
@@ -1364,33 +1355,36 @@
     font-size: 28px;
     line-height: 30px;
     right: 5px;
-    top:5px;
+    top: 5px;
     cursor: pointer;
 
 }
-.popup-box .popup-body{
+
+.popup-box .popup-body {
     padding: 10px;
-    
+
 }
 
-.popup-box .popup-body p{
+.popup-box .popup-body p {
     font-size: 16px;
-    margin: 0,0 15px;
+    margin: 0, 0 15px;
     color: #555555;
-    
+
 }
+
 .popup-box .popup-footer {
     padding: 15px;
     border-top: 1px solid #dddddd;
-    text-align: right   ;
+    text-align: right;
 }
-.popup-box h4{
+
+.popup-box h4 {
     margin: 0;
     color: var(--bs-secondary);
     font-size: 16px;
 }
 
-.popup-box h3{
+.popup-box h3 {
     margin: 0;
     color: var(--bs-primary);
     font-size: 20px;
@@ -1398,29 +1392,15 @@
 }
 
 
-.popup-box .popup-footer .btn{
-    padding: 8px 15px;
-    border: 1px solid #555555;
-    color: #555555;
-    font-size: 16px;
-    background-color: transparent;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.popup-box .popup-footer .btn:focus{
-    outline: none;
-}
 
 /*responsive*/
+@media(max-width: 767px) {
+    .blogs .blog-items .item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 
-@media(max-width: 767px){
-	.blogs .blog-items .item{
-	  flex:0 0 100%;
-      max-width: 100%;
-   }
-   .popup-box .popup-content{
-   	 width: calc(100% - 30px);
-   }
+    .popup-box .popup-content {
+        width: calc(100% - 30px);
+    }
 }
-
