@@ -1,74 +1,6 @@
- body {
- 	font-family: sans-serif;
- 	margin: 0;
- 	line-height: 1.5;
- }
-
- * {
- 	box-sizing: border-box;
- 	margin: 0;
- }
-
- .container {
- 	max-width: 1170px;
- 	margin: auto;
- }
-
- .row {
- 	display: flex;
- 	flex-wrap: wrap;
- }
-
- .section-title {
- 	flex: 0 0 100%;
- 	max-width: 100%;
- 	margin-bottom: 60px;
- }
-
- .section-title h1 {
- 	text-align: center;
- 	font-size: 36px;
- 	color: #000000;
- }
-
- .services {
- 	min-height: 100vh;
- 	padding: 80px 0;
- }
-
- .services .service-items {
-	flex: 0 0 100%;
-	max-width: 100%;
-}
-
- .services .service-items .item {
- 	flex: 0 0 33.33%;
- 	max-width: 33.33%;
- 	padding: 15px;
- }
-
- .services .service-items .read-more-cont {
+.services .service-items .read-more-cont {
  	display: none;
  }
-
- .services .service-items .item-inner h3 {
- 	font-size: 20px;
- 	color: #000000;
- 	margin-bottom: 30px;
- 	position: relative;
- }
-
- .services .service-items .item-inner h3::before {
- 	content: '';
- 	height: 1px;
- 	width: 80px;
- 	background-color: #000000;
- 	position: absolute;
- 	left: 0;
- 	bottom: -10px;
- }
-
-
 
  .popup-box {
  	position: fixed;
@@ -128,14 +60,9 @@
  	overflow-y: auto;
  }
 
- .popup-box .popup-body img {
- 	width: 100%;
- 	display: block;
- 	margin-top: 15px;
- }
 
  .popup-box .popup-body p {
- 	font-size: 16px;
+ 	/* font-size: 16px; */
  	color: #555555;
  	margin: 0 0 15px;
  }
