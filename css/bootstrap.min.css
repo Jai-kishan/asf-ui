@@ -1209,6 +1209,12 @@ progress {
         width: 41.6666666667%
     }
 
+    .col-md-6-blog {
+        flex: 0 0 auto;
+        margin: 0.5%;
+        width: 48%
+    }
+
     .col-md-6 {
         flex: 0 0 auto;
         width: 50%
@@ -1423,6 +1429,12 @@ progress {
         width: 41.6666666667%
     }
 
+    .col-lg-6-blog {
+        flex: 0 0 auto;
+        margin: 0.5%;
+        width: 48%
+    }
+
     .col-lg-6 {
         flex: 0 0 auto;
         width: 50%
@@ -1630,6 +1642,12 @@ progress {
     .col-xl-4 {
         flex: 0 0 auto;
         width: 33.3333333333%
+    }
+
+    .col-xl-blog {
+        flex: 0 0 auto;
+        margin: 0.5%;
+        width: 32.1%
     }
 
     .col-xl-5 {

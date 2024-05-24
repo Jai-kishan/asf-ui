@@ -1300,8 +1300,14 @@
 
 /*** Events End ***/
 
+
+
+
 /* for read more */
-.mybox { 
-    display: none; 
-} 
-  
+.mybox {
+    display: none;
+}
+
+.read-more-content {
+    display: none;
+}
