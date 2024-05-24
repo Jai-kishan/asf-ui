@@ -1,4 +1,4 @@
-.services .service-items .read-more-cont {
+.blogs .blog-items .read-more-cont {
  	display: none;
  }
 
@@ -77,7 +77,7 @@
  /*responsive*/
 
  @media(max-width: 767px) {
- 	.services .service-items .item {
+ 	.blogs .blog-items .item {
  		flex: 0 0 100%;
  		max-width: 100%;
  	}

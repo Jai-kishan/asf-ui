@@ -1,4 +1,4 @@
-const serviceItems = document.querySelector(".service-items");
+const serviceItems = document.querySelector(".blog-items");
 const popup = document.querySelector(".popup-box")
 const popupCloseBtn = popup.querySelector(".popup-close-btn");
 const popupCloseIcon = popup.querySelector(".popup-close-icon");
