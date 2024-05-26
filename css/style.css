@@ -766,6 +766,7 @@
 
 .team-intro {
     background-color: rgba(239, 162, 134, 0.3);
+    height: 500px;
 }
 
 .team .team-item .team-img::before {
@@ -1234,7 +1235,7 @@
 .flip-card {
     background-color: transparent;
     perspective: 1000px;
-    height: 500px;
+    height: 600px;
     /* Remove this if you don't want the 3D effect */
 }
 
