@@ -1,8 +1,10 @@
 # asf-ui
 
 **Changes**
-- while clicking on the team member pic that image has to flip and show the details about the team.
-- Need to add video on donate us image
+- Fix contact us
+- volunteer and career page
+- Gallery image as per the tab
+- Need to add a video on the Donate Us image
 
 
 

@@ -15,12 +15,12 @@
     <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b24c06ff62.js" crossorigin="anonymous"></script>
+
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -38,6 +38,16 @@
 </head>
 
 <body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
@@ -84,11 +94,11 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <div class="nav-item dropdown">
-                        <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
                         <div class="dropdown-menu m-0">
-                            <a href="about.html" class="dropdown-item active">Our Story</a>
+                            <a href="about.html" class="dropdown-item">Our Story</a>
                             <a href="blog.html" class="dropdown-item">Our Blog</a>
-                            <a href="team.html" class="dropdown-item">Our Team</a>
+                            <a href="team.html" class="dropdown-item active">Our Team</a>
                         </div>
                     </div>
                     <a href="programs.html" class="nav-item nav-link">Programs</a>
@@ -107,353 +117,103 @@
     <!-- Header Start -->
     <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px;">
-            <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Volunteer With Us</h1>
+            <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Volunteer</h1>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                </ol>
         </div>
     </div>
     <!-- Header End -->
 
-    <!-- main content start-->
-    <div class="wpb_wrapper">
-        <div class="vc_custom_heading cms-custom-heading cms-h1">
-            <h1 style="text-align: left;font-family:Lato;font-weight:900;font-style:normal" class="cms-heading-inner  ">
-                MAKE A <em>DIFFERENCE</em></h1>
-        </div>
-        <div class="wpb_text_column wpb_content_element ">
-            <div class="wpb_wrapper">
-                <p>Be a part of our noble cause by being the volunteers of our foundation.&nbsp;Dream Girl Foundation
-                    invites all the enthusiastic people who have the courage to serve their nation helplessly.Our nation
-                    has provided us everything what we want now its’ our time to help our nation prosper.&nbsp;Join our
-                    foundation and see our nation’s future come out with flying colores.</p>
-                <p>Dream Girl Foundation always welcome the support of Volunteer for our Projects. We also
-                    offers<span>&nbsp;</span><strong>Virtual Volunteership.</strong> Please fill the form and register
-                    yourself as a volunteer. We will contact you whenever we need you. The Certificate of Volunteership
-                    shall be provided only if you complete the task assigned to you.</p>
-                <div id="quform-1bb03c" class="quform quform-2 quform-theme-light">
-                    <form id="quform-form-1bb03c" class="quform-form quform-form-2"
-                        action="/volunteer-with-us/?gad_source=1&amp;gclid=CjwKCAjw9cCyBhBzEiwAJTUWNeeKPuJS7igoTDPWdmnLJQywmFQ7UFlPIjZiMseZvHiV2OzacEdG-BoC6q0QAvD_BwE#quform-1bb03c"
-                        method="post" enctype="multipart/form-data" novalidate="novalidate"
-                        data-options="{&quot;id&quot;:2,&quot;uniqueId&quot;:&quot;1bb03c&quot;,&quot;theme&quot;:&quot;light&quot;,&quot;ajax&quot;:true,&quot;logic&quot;:{&quot;logic&quot;:[],&quot;dependents&quot;:[],&quot;elementIds&quot;:[],&quot;dependentElementIds&quot;:[],&quot;animate&quot;:true},&quot;currentPageId&quot;:9,&quot;errorsIcon&quot;:null,&quot;updateFancybox&quot;:true,&quot;hasPages&quot;:false,&quot;pages&quot;:[9],&quot;pageProgressType&quot;:&quot;numbers&quot;,&quot;tooltipsEnabled&quot;:true,&quot;tooltipClasses&quot;:&quot;qtip-plain qtip-shadow&quot;,&quot;tooltipMy&quot;:&quot;left center&quot;,&quot;tooltipAt&quot;:&quot;right center&quot;,&quot;scrollOffset&quot;:-50,&quot;scrollSpeed&quot;:800}">
-                        <button class="quform-default-submit" name="quform_submit" type="submit"
-                            value="submit"></button>
-                        <div class="quform-form-inner quform-form-inner-2"><input type="hidden" name="quform_form_id"
-                                value="2"><input type="hidden" name="quform_form_uid" value="1bb03c"><input
-                                type="hidden" name="quform_count" value="1"><input type="hidden" name="form_url"
-                                value="https://dreamgirlfoundation.ngo/volunteer-with-us/?gad_source=1&amp;gclid=CjwKCAjw9cCyBhBzEiwAJTUWNeeKPuJS7igoTDPWdmnLJQywmFQ7UFlPIjZiMseZvHiV2OzacEdG-BoC6q0QAvD_BwE"><input
-                                type="hidden" name="referring_url" value="https://www.google.com/"><input type="hidden"
-                                name="post_id" value="3495"><input type="hidden" name="post_title"
-                                value="Volunteer With Us"><input type="hidden" name="quform_current_page_id"
-                                value="9"><input type="hidden" name="quform_csrf_token"
-                                value="zmlJp8Lg23KFW2e0oV8JPHenMU0rutFIXjWI8Khr">
-                            <div class="quform-form-title-description">
-                                <h2 class="quform-form-title">Volunteer Registration</h2>
-                            </div>
-                            <div class="quform-elements quform-elements-2 quform-cf">
-                                <div
-                                    class="quform-element quform-element-page quform-page-9 quform-page-2_9 quform-cf quform-group-style-plain quform-first-page quform-last-page quform-current-page">
-                                    <div class="quform-child-elements">
-                                        <div
-                                            class="quform-element quform-element-text quform-element-2_1 quform-cf quform-element-required">
-                                            <div class="quform-spacer">
-                                                <div class="quform-label quform-label-2_1"><label
-                                                        class="quform-label-text" for="quform_2_1_1bb03c">Full
-                                                        Name</label><span class="quform-required">(required)</span>
-                                                </div>
-                                                <div class="quform-inner quform-inner-text quform-inner-2_1">
-                                                    <div
-                                                        class="quform-input quform-input-text quform-input-2_1 quform-cf">
-                                                        <input type="text" id="quform_2_1_1bb03c" name="quform_2_1"
-                                                            class="quform-field quform-field-text quform-field-2_1">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="quform-element quform-element-text quform-element-2_2 quform-cf quform-element-optional">
-                                            <div class="quform-spacer">
-                                                <div class="quform-label quform-label-2_2"><label
-                                                        class="quform-label-text" for="quform_2_2_1bb03c">Contact
-                                                        Number</label></div>
-                                                <div class="quform-inner quform-inner-text quform-inner-2_2">
-                                                    <div
-                                                        class="quform-input quform-input-text quform-input-2_2 quform-cf">
-                                                        <input type="text" id="quform_2_2_1bb03c" name="quform_2_2"
-                                                            class="quform-field quform-field-text quform-field-2_2">
-                                                    </div>
-                                                    <p class="quform-description quform-description-below">Mobile or
-                                                        Telephone</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="quform-element quform-element-email quform-element-2_3 quform-cf quform-element-required">
-                                            <div class="quform-spacer">
-                                                <div class="quform-label quform-label-2_3"><label
-                                                        class="quform-label-text" for="quform_2_3_1bb03c">Email
-                                                        Address</label><span class="quform-required">(required)</span>
-                                                </div>
-                                                <div class="quform-inner quform-inner-email quform-inner-2_3">
-                                                    <div
-                                                        class="quform-input quform-input-email quform-input-2_3 quform-cf">
-                                                        <input type="email" id="quform_2_3_1bb03c" name="quform_2_3"
-                                                            class="quform-field quform-field-email quform-field-2_3">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="quform-element quform-element-text quform-element-2_4 quform-cf quform-element-optional">
-                                            <div class="quform-spacer">
-                                                <div class="quform-label quform-label-2_4"><label
-                                                        class="quform-label-text"
-                                                        for="quform_2_4_1bb03c">Occupation</label></div>
-                                                <div class="quform-inner quform-inner-text quform-inner-2_4">
-                                                    <div
-                                                        class="quform-input quform-input-text quform-input-2_4 quform-cf">
-                                                        <input type="text" id="quform_2_4_1bb03c" name="quform_2_4"
-                                                            class="quform-field quform-field-text quform-field-2_4">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="quform-element quform-element-checkbox quform-element-2_5 quform-cf quform-element-optional">
-                                            <div class="quform-spacer">
-                                                <div class="quform-label quform-label-2_5"><label
-                                                        class="quform-label-text">Prefer to Work From :</label></div>
-                                                <div class="quform-inner quform-inner-checkbox quform-inner-2_5">
-                                                    <div
-                                                        class="quform-input quform-input-checkbox quform-input-2_5 quform-cf">
-                                                        <div class="quform-options quform-cf quform-options-block">
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_5[]" id="quform_2_5_1bb03c_1"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_5 quform-field-2_5_1"
-                                                                    value="Home"><label for="quform_2_5_1bb03c_1"
-                                                                    class="quform-option-label quform-option-label-2_5_1"><span
-                                                                        class="quform-option-text">Home</span></label>
-                                                            </div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_5[]" id="quform_2_5_1bb03c_2"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_5 quform-field-2_5_2"
-                                                                    value="Location"><label for="quform_2_5_1bb03c_2"
-                                                                    class="quform-option-label quform-option-label-2_5_2"><span
-                                                                        class="quform-option-text">Location</span></label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="quform-element quform-element-text quform-element-2_7 quform-cf quform-element-optional">
-                                            <div class="quform-spacer">
-                                                <div class="quform-label quform-label-2_7"><label
-                                                        class="quform-label-text" for="quform_2_7_1bb03c">Your
-                                                        City</label></div>
-                                                <div class="quform-inner quform-inner-text quform-inner-2_7">
-                                                    <div
-                                                        class="quform-input quform-input-text quform-input-2_7 quform-cf">
-                                                        <input type="text" id="quform_2_7_1bb03c" name="quform_2_7"
-                                                            class="quform-field quform-field-text quform-field-2_7">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="quform-element quform-element-checkbox quform-element-2_6 quform-cf quform-element-required">
-                                            <div class="quform-spacer">
-                                                <div class="quform-label quform-label-2_6"><label
-                                                        class="quform-label-text">Choose the Work You are Interested in
-                                                        :</label><span class="quform-required">(required)</span></div>
-                                                <div class="quform-inner quform-inner-checkbox quform-inner-2_6">
-                                                    <div
-                                                        class="quform-input quform-input-checkbox quform-input-2_6 quform-cf">
-                                                        <div class="quform-options quform-cf quform-options-block">
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_1"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_1"
-                                                                    value="Social Media"><label
-                                                                    for="quform_2_6_1bb03c_1"
-                                                                    class="quform-option-label quform-option-label-2_6_1"><span
-                                                                        class="quform-option-text">Social
-                                                                        Media</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_2"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_2"
-                                                                    value="Marketing / Branding"><label
-                                                                    for="quform_2_6_1bb03c_2"
-                                                                    class="quform-option-label quform-option-label-2_6_2"><span
-                                                                        class="quform-option-text">Marketing /
-                                                                        Branding</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_3"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_3"
-                                                                    value="Content Writing / Blogging / Copywriting"><label
-                                                                    for="quform_2_6_1bb03c_3"
-                                                                    class="quform-option-label quform-option-label-2_6_3"><span
-                                                                        class="quform-option-text">Content Writing /
-                                                                        Blogging / Copywriting</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_4"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_4"
-                                                                    value="Fundraising"><label for="quform_2_6_1bb03c_4"
-                                                                    class="quform-option-label quform-option-label-2_6_4"><span
-                                                                        class="quform-option-text">Fundraising</span></label>
-                                                            </div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_5"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_5"
-                                                                    value="Presentation"><label
-                                                                    for="quform_2_6_1bb03c_5"
-                                                                    class="quform-option-label quform-option-label-2_6_5"><span
-                                                                        class="quform-option-text">Presentation</span></label>
-                                                            </div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_6"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_6"
-                                                                    value="Photography"><label for="quform_2_6_1bb03c_6"
-                                                                    class="quform-option-label quform-option-label-2_6_6"><span
-                                                                        class="quform-option-text">Photography</span></label>
-                                                            </div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_7"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_7"
-                                                                    value="Videography"><label for="quform_2_6_1bb03c_7"
-                                                                    class="quform-option-label quform-option-label-2_6_7"><span
-                                                                        class="quform-option-text">Videography</span></label>
-                                                            </div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_8"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_8"
-                                                                    value="Internet / Web"><label
-                                                                    for="quform_2_6_1bb03c_8"
-                                                                    class="quform-option-label quform-option-label-2_6_8"><span
-                                                                        class="quform-option-text">Internet /
-                                                                        Web</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_9"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_9"
-                                                                    value="Teaching / Training / Coaching"><label
-                                                                    for="quform_2_6_1bb03c_9"
-                                                                    class="quform-option-label quform-option-label-2_6_9"><span
-                                                                        class="quform-option-text">Teaching / Training /
-                                                                        Coaching</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_10"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_10"
-                                                                    value="Illustration / Design / Drawing"><label
-                                                                    for="quform_2_6_1bb03c_10"
-                                                                    class="quform-option-label quform-option-label-2_6_10"><span
-                                                                        class="quform-option-text">Illustration / Design
-                                                                        / Drawing</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_11"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_11"
-                                                                    value="Multimedia / Animation"><label
-                                                                    for="quform_2_6_1bb03c_11"
-                                                                    class="quform-option-label quform-option-label-2_6_11"><span
-                                                                        class="quform-option-text">Multimedia /
-                                                                        Animation</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_12"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_12"
-                                                                    value="Event Planning/Management"><label
-                                                                    for="quform_2_6_1bb03c_12"
-                                                                    class="quform-option-label quform-option-label-2_6_12"><span
-                                                                        class="quform-option-text">Event
-                                                                        Planning/Management</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_13"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_13"
-                                                                    value="Social Volunteering"><label
-                                                                    for="quform_2_6_1bb03c_13"
-                                                                    class="quform-option-label quform-option-label-2_6_13"><span
-                                                                        class="quform-option-text">Social
-                                                                        Volunteering</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_14"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_14"
-                                                                    value="Community Management/Engagement"><label
-                                                                    for="quform_2_6_1bb03c_14"
-                                                                    class="quform-option-label quform-option-label-2_6_14"><span
-                                                                        class="quform-option-text">Community
-                                                                        Management/Engagement</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_15"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_15"
-                                                                    value="Data Entry"><label for="quform_2_6_1bb03c_15"
-                                                                    class="quform-option-label quform-option-label-2_6_15"><span
-                                                                        class="quform-option-text">Data
-                                                                        Entry</span></label></div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_16"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_16"
-                                                                    value="Caregivers"><label for="quform_2_6_1bb03c_16"
-                                                                    class="quform-option-label quform-option-label-2_6_16"><span
-                                                                        class="quform-option-text">Caregivers</span></label>
-                                                            </div>
-                                                            <div class="quform-option"><input type="checkbox"
-                                                                    name="quform_2_6[]" id="quform_2_6_1bb03c_17"
-                                                                    class="quform-field quform-field-checkbox quform-field-2_6 quform-field-2_6_17"
-                                                                    value="Poster Creation"><label
-                                                                    for="quform_2_6_1bb03c_17"
-                                                                    class="quform-option-label quform-option-label-2_6_17"><span
-                                                                        class="quform-option-text">Poster
-                                                                        Creation</span></label></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="quform-element quform-element-textarea quform-element-2_8 quform-cf quform-element-optional">
-                                            <div class="quform-spacer">
-                                                <div class="quform-label quform-label-2_8"><label
-                                                        class="quform-label-text" for="quform_2_8_1bb03c">Special Skills
-                                                        which you have like Adobe Photoshop, Painting, Web
-                                                        Designing</label></div>
-                                                <div class="quform-inner quform-inner-textarea quform-inner-2_8">
-                                                    <div
-                                                        class="quform-input quform-input-textarea quform-input-2_8 quform-cf">
-                                                        <textarea id="quform_2_8_1bb03c" name="quform_2_8"
-                                                            class="quform-field quform-field-textarea quform-field-2_8"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="quform-element quform-element-submit quform-element-2_10 quform-cf quform-button-style-theme">
-                                            <div
-                                                class="quform-button-submit quform-button-submit-default quform-button-submit-2_10">
-                                                <button name="quform_submit" type="submit" class="quform-submit"
-                                                    value="submit"><span
-                                                        class="quform-button-text quform-button-submit-text">Register
-                                                        Me</span></button></div>
-                                            <div
-                                                class="quform-loading quform-loading-position-left quform-loading-type-spinner-1">
-                                                <div class="quform-loading-inner">
-                                                    <div class="quform-loading-spinner">
-                                                        <div class="quform-loading-spinner-inner"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="quform-hidden"><label>This field should be left blank<input
-                                                    type="text" name="quform_2_0" autocomplete="off"></label></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
 
+    <!-- Team Start -->
+    <div class="container-fluid team py-5">
+        <div class="container py-5">
+            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="sub-style">
+                    <h4 class="sub-title px-3 mb-0">Make A Difference</h4>
+                </div>
+                <h1 class="display-3 mb-4">Join Our Mission: Diverse Volunteer Opportunities to Empower Education</h1>
+                <p class="mb-0">Together, we can empower futures and create lasting change. If you are passionate about
+                    educational equality and ready to make a difference!
+
+                    We invite you to join our mission with a variety of volunteer roles, including Teaching and
+                    Tutoring, Community Outreach, Fundraising, Administrative Support, Student Opportunities, Creative
+                    Contributions, and more.</p>
+            </div>
+            <div class="row justify-content-center">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScP6ZTgEYSV4dWMOAOWm7fct15wpnjJNTX8FCDucr5Z_V3vDw/viewform?embedded=true"
+                    width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
     </div>
-
-    <!-- main content ends-->
-
+    <!-- Team End -->
 
 
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-3 wow fadeIn text-white" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-4">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Quick Links</h4>
+                        <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        <!-- <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a> -->
+                        <a href="blog.html"><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
+                        <a href="team.html"><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Get Involved</h4>
+                        <a href="404.html"><i class="fas fa-handshake me-2"></i> Be a Partner</a>
+                        <a href="donate.html"><i class="fas fa-hand-holding-heart me-2"></i> Donate</a>
+                        <a href="404.html"><i class="fas fa-bullhorn me-2"></i> Careers</a>
+                        <a href="volunteer.html"><i class="fas fa-users me-2"></i> Volunteer</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Contact Info</h4>
+                        <a><i class="fa fa-map-marker-alt me-2"></i> Amagachi Village, <br>
+                            Arariya (District) Bihar, IND</a>
+                        <a><i class="fas fa-envelope me-2"></i> aatmvishwasfoundation@gmail.com</a>
+                        <a><i class="fa fa-phone-alt me-2"></i> + 91 953 429 9262</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-3 text-white">
+        <div class="container">
+            <div class="row g-4 align-items-center text-center">
+                <a>&copy; 2023 | Designed and Developed by Aatmvishwas Foundation</a>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 
 </body>
 
